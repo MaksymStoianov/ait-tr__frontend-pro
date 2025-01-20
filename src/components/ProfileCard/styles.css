@@ -1,0 +1,39 @@
+.profile-card-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 15px;
+	max-width: 550px;
+	width: 100%;
+	padding: 20px;
+	background-color: rgb(255 255 255);
+	border: 2px solid var(--primary-color);
+	border-radius: 8px;
+}
+
+.profile-card-wrapper > div {
+	display: flex;
+	gap: 5px;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.profile-card-wrapper > div > div {
+	display: flex;
+	align-items: center;
+}
+
+.profile-card-wrapper .avatar {
+	max-width: 55px;
+}
+
+.profile-card-wrapper .hobby .item {
+	border-radius: 24px;
+	border: 1px solid var(--primary-color);
+	padding: 2px 8px;
+	font-size: 13px;
+	font-weight: 500;
+	margin-left: 5px;
+	color: var(--primary-color);
+	letter-spacing: 1px;
+}

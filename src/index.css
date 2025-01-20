@@ -20,7 +20,7 @@ p {
 	padding: 0;
 }
 
-:root {
+#root {
 	display: flex;
 	min-height: 100%;
 }

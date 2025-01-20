@@ -1,0 +1,24 @@
+.animal-card-wrapper {
+	--border-radius: 8px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	min-width: 400px;
+	border: 2px solid var(--primary-color);
+	border-radius: var(--border-radius);
+}
+
+.card-image {
+	width: 100px;
+	border-radius: 0 calc(var(--border-radius) - 2px)
+		calc(var(--border-radius) - 2px) 0;
+}
+
+.card-info {
+	padding: 10px 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
