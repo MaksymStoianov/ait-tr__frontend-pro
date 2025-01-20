@@ -1,17 +1,15 @@
 .main-button {
-	min-width: 100px;
-	padding: 10px 30px;
+	width: 100%;
+	font-family: "Lato", serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 30px;
+	padding: 20px 54px;
 	border-radius: 4px;
-	font-size: 15px;
-	letter-spacing: 1px;
 	font-weight: 500;
 	color: #fff;
-	border: 2px solid var(--secondary-color);
-	background-color: var(--secondary-color);
+	border: none;
+	background-color: #1f27f5;
 	cursor: pointer;
-}
-
-.main-button:hover {
-	color: var(--secondary-color);
-	background-color: #fff;
 }
