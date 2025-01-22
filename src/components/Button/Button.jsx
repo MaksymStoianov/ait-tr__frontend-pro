@@ -1,11 +1,10 @@
 import "./styles.css";
 
 function Button(props) {
-	const { name = "SEND" } = props;
-	const buttonType = "submit";
+	const { name = "SEND", type = "submit", onClick } = props;
 
 	return (
-		<button className="main-button" type={buttonType}>
+		<button className="main-button" type={type} onClick={onClick}>
 			{name}
 		</button>
 	);
