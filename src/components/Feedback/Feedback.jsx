@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "../Button/Button";
 import "./styles.css";
 
 const Feedback = props => {
@@ -36,14 +37,14 @@ const Feedback = props => {
 			<div className="flex-row">
 				<div className="button-like-container flex-row">
 					<span>{state.likes}</span>
-					<button onClick={incrementLikes}>Like</button>
+					<Button onClick={incrementLikes}>Like</Button>
 				</div>
 				<div className="button-dislike-container flex-row">
-					<button onClick={incrementDislikes}>Dislike</button>
+					<Button onClick={incrementDislikes}>Dislike</Button>
 					<span>{state.dislikes}</span>
 				</div>
 			</div>
-			<button onClick={reset}>Reset Results</button>
+			<Button onClick={reset}>Reset Results</Button>
 			{children}
 		</div>
 	);
